@@ -1,13 +1,38 @@
 .footer {
+  max-width: 1200px;
+  height: 300px;
+  margin: auto;
 }
 
 .footer .layout {
-  max-width: 1200px;
+  width: 100%;
   height: 100px;
-  margin: auto;
-  background-color: rgb(161, 103, 216);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+}
+
+.footer-logo {
+  width: 300px;
+  height: 100%;
+  background-color: rgb(161, 103, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .copy {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 178, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .sns {
+  width: 300px;
+  height: 100%;
+  background-color: rgb(162, 137, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
