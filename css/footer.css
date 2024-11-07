@@ -1,0 +1,13 @@
+.footer {
+}
+
+.footer .layout {
+  max-width: 1200px;
+  height: 100px;
+  margin: auto;
+  background-color: rgb(161, 103, 216);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}

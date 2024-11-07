@@ -1,0 +1,38 @@
+.header {
+}
+.header .layout {
+  height: 150px;
+  margin: auto;
+  max-width: 1200px;
+  background-color: rgb(177, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  padding: 50px;
+}
+.main-menu {
+  display: flex;
+  position: absolute;
+  right: 0;
+  padding-right: 50px;
+}
+.main-menu-link {
+  background-color: #fff;
+  padding: 20px 50px;
+  border: 1px solid #000;
+}
+
+.sub-menu {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  background-color: rgb(124, 107, 95);
+}
+
+.sub-menu li {
+  text-align: center;
+  padding: 5px;
+}
