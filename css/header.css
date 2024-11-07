@@ -28,13 +28,21 @@
 .main-menu {
   display: flex;
   position: absolute;
+  top: 0;
   right: 0;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
+
 .main-menu-link {
   background-color: #fff;
   padding: 20px 50px;
   border: 1px solid #000;
+}
+.main-menu li {
+}
+
+.main-menu li:hover {
+  background-color: #7853ff;
 }
 
 .sub-menu {
